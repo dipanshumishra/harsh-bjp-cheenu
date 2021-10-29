@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./logo/bjp.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel='stylesheet' type='text/css' media='screen'href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <title>HARSH INDU TIWARI</title>
+    
+                           <!--counter scripts -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+   <!-- ------------------------------------------------- -->
+   <!-- -----carousel start----- -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <!-- -----carousel end----- -->
+ 
+<!-- ------scroll animation start----- -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script>
+<script>
+    window.addEventListener('load', AOS.refresh)
+</script>
+<!-- ------scroll animation end----- -->
+
+<!-- --------------gallery start----------- -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+
+<!-- --------------gallery end----------- -->
+
+
+</head>
+<body>
+<!-- --------------navbar start------------- -->
+<header class="sticky-top">
+    <nav >
+        <input type="checkbox" id="check" onclick="show()">
+        <label for="check">
+            <i class="fa fa-bars" id ="btn"></i>
+            <i class="fa fa-times" id="cancel"></i>
+         </label>
+      <h3 class="text-bold animate__animated animate__bounceInUp" style="animation-duration:2s; color: #fff!important;"><b>HARSH INDU TIWARI </b></h3>
+      <a href="./index.html">
+        <img src="./logo/bjp.png" alt="BJP">
+    </a>
+      <ul>
+         <li class="animate__animated animate__lightSpeedInRight"><a href="index.html" style="animation-duration: 5s;">HOME</a></li>
+         <li  class="animate__animated animate__lightSpeedInLeft"><a href="index.html#aboutme" style="animation-duration: 5s;">ABOUT ME</a></li>
+         <li class="animate__animated animate__lightSpeedInRight"><a href="gallery.html" style="animation-duration: 5s;">GALLERY</a></li>
+         <li  class="animate__animated animate__lightSpeedInLeft"><a href="#" style="animation-duration: 5s;">CONTACT+</a></li>
+     </ul>
+    </nav>
+</header>
+<!-- --------------navbar end------------- -->
+
+ <!-- -----------------gallery start---------- -->
+ <div class="container " style="margin-top: 20vh;">
+    <div class="row">
+       <div class="col-lg-12 text-center my-2">
+          <h2 style="text-decoration: underline;">Gallery</h2>
+       </div>
+    </div>
+    <div class="portfolio-menu mt-2 mb-4">
+       <ul>
+          <li class="btn btn-outline-dark active" data-filter="*" style="text-decoration: underline;font-size: 20px!important;" >All</li>
+          <li class="btn btn-outline-dark" data-filter=".gts"  style="text-decoration: underline; font-size: 20px!important;">Family</li>
+          <li class="btn btn-outline-dark" data-filter=".lap" style="text-decoration: underline; font-size: 20px!important;">Social Work</li>
+          <li class="btn btn-outline-dark text" data-filter=".selfie" style="text-decoration: underline; font-size: 20px!important;">Events</li>
+       </ul>
+    </div>
+    <div class="portfolio-item row">
+      
+      <!-- -----------gts=family ; selfie=event ; lap=social work--------------- -->
+  
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="family/f11.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+          <img class="img-fluid" src="family/f11.jpg" alt="">
+          </a>
+       </div>
+       <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+        <a href="events/e1.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="events/e1.jpg" alt="">
+        </a>
+     </div>
+     <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+      <a href="social_work/s5.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="social_work/s5.jpg" alt="">
+      </a>
+   </div>
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+        <a href="family/f12.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="family/f12.jpg" alt="">
+        </a>
+     </div>
+        
+     <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+      <a href="social_work/s3.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="social_work/s3.jpg" alt="">
+      </a>
+   </div>
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="family/f13.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+          <img class="img-fluid" src="family/f13.jpg" alt="">
+          </a>
+       </div>
+       <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+        <a href="social_work/s7.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="social_work/s7.jpg" alt="">
+        </a>
+     </div>
+     
+     <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+        <a href="social_work/s8.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="social_work/s8.jpg" alt="">
+        </a>
+     </div>
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+        <a href="family/f14.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="family/f14.jpg" alt="">
+        </a>
+     </div>
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="family/f15.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+          <img class="img-fluid" src="family/f15.jpg" alt="">
+          </a>
+       </div>
+       
+       <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+        <a href="social_work/s2.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="social_work/s2.jpg" alt="">
+        </a>
+     </div>
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+        <a href="family/f16.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="family/pf16.jpg" alt="">
+        </a>
+     </div>
+     
+     <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+      <a href="social_work/s9.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="social_work/s9.jpg" alt="">
+      </a>
+   </div>
+  
+     <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+      <a href="events/e4.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="events/e4.jpg" alt="">
+      </a>
+   </div>
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="family/f17.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+          <img class="img-fluid" src="family/f17.jpg" alt="">
+          </a>
+       </div>
+       <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+        <a href="events/e2.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="events/e2.jpg" alt="">
+        </a>
+     </div>
+     <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+      <a href="social_work/s13.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="social_work/s13.jpg" alt="">
+      </a>
+   </div>
+  
+   <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+      <a href="social_work/s14.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="social_work/s14.jpg" alt="">
+      </a>
+   </div>
+     <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+      <a href="events/e5.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="events/e5.jpg" alt="">
+      </a>
+   </div>
+  
+     <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+      <a href="social_work/s1.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="social_work/s1.jpg" alt="">
+      </a>
+   </div>
+   <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+    <a href="events/e3.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="events/e3.jpg" alt="">
+    </a>
+  </div>
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+          <a href="family/f18.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+          <img class="img-fluid" src="family/f18.jpg" alt="">
+          </a>
+       </div>
+       
+       <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+        <a href="social_work/s4.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="social_work/s4.jpg" alt="">
+        </a>
+     </div>
+     
+       <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+        <a href="family/f19.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+        <img class="img-fluid" src="family/f19.jpg" alt="">
+        </a>
+     </div>
+     <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+      <a href="social_work/s10.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="social_work/s10.jpg" alt="">
+      </a>
+   </div>
+    
+   <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+    <a href="family/f20.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="family/f20.jpg" alt="">
+    </a>
+ </div>
+
+   <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+      <a href="social_work/s11.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="social_work/s11.jpg" alt="">
+      </a>
+   </div>
+     
+   <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+    <a href="family/f21.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="family/f21.jpg" alt="">
+    </a>
+ </div>
+     <div class="item selfie col-lg-3 col-md-4 col-6 col-sm">
+      <a href="events/e6.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+      <img class="img-fluid" src="events/e6.jpg" alt="">
+      </a>
+   </div>
+     
+   <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+    <a href="family/f22.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="family/f22.jpg" alt="">
+    </a>
+ </div>
+   <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+    <a href="social_work/s6.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="social_work/s6.jpg" alt="">
+    </a>
+  </div>
+    
+  <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+    <a href="family/f23.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="family/f23.jpg" alt="">
+    </a>
+ </div>
+  <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
+    <a href="social_work/s12.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="social_work/s12.jpg" alt="">
+    </a>
+  </div>
+    
+  <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+    <a href="./family/f24.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="family/f24.jpg" alt="">
+    </a>
+ </div>
+   
+ <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
+    <a href="family/f25.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+    <img class="img-fluid" src="family/f25.jpg" alt="">
+    </a>
+ </div>
+    </div>
+  </div>
+      <!-- -----------------gallery end---------- -->
+  
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-------------------------------side socia icons start------------>
+<div class="icons text-center">
+        <ul>
+         <a href="https://www.facebook.com/pg/BjpCheenu/" tarPOST="_blank"tarPOST="_blank" class="facebook"><li> <i class="animate__animated animate__fadeInDown fa fa-facebook" style="animation-delay:0s ; animation-duration: 1s;"></i></li></a>
+         <a href="https://www.instagram.com/bjpcheenu/?hl=en" tarPOST="_blank" class="instagram"><li> <i class="animate__animated animate__fadeInDown fa fa-instagram" style="animation-delay:0.5s ;animation-duration: 1s;"></i></li></a>
+         <a href="https://twitter.com/iharshjbp?t=Xy9OFE0px-6LIf9dCaqr0w&s=08" tarPOST="_blank" class="twitter"><li> <i class="animate__animated animate__fadeInDown fa fa-twitter" style="animation-delay:1s ;animation-duration: 1s;"></i></li></a>
+        </ul>
+</div>
+                <!----------------side socia icons end--------------------->
+  
+<!-- ----------horizontal social icons----------- -->
+<div class="socio">
+    <ol class="px-3 text-center">
+    <li><a href="https://www.facebook.com/BjpCheenu/" tarPOST="_blank"tarPOST="_blank" class=" facebook"><li> <i class="animate__animated animate__fadeInDown fa fa-facebook" style="animation-delay:0s ; animation-duration: 1s;"></i></li></a>
+    <li><a href="https://www.instagram.com/bjpcheenu/?hl=en" tarPOST="_blank" class=" instagram"><li> <i class=" animate__animated animate__fadeInDown fa fa-instagram" style="animation-delay:0.5s ;animation-duration: 1s;"></i></li></a>
+    <li><a href="https://mobile.twitter.com/bjpcheenu?lang=en" tarPOST="_blank" class=" twitter"><li> <i class=" animate__animated animate__fadeInDown fa fa-twitter" style="animation-delay:1s ;animation-duration: 1s;"></i></li></a>
+  </ol>
+</div>
+  <!-- ----------horizontal social icons----------- -->
+
+
+<!-- --------------------footer start----------------- -->
+<div class="container-fluid bg-dark">
+<div class="container my-5 footer-section bg-dark">
+    <div class="row">
+       
+        <div class=" col-md-3 col-12 text-sm-left mt-md-5">
+          <h3>SOCIAL MEDIA</h3>
+          <div>
+              <a href="https://www.instagram.com/bjpcheenu/?hl=en" tarPOST="_blank">Instagram</a>
+          </div>           
+          <div  style="margin-top: 5px!important;">
+              <a href="https://www.facebook.com/BjpCheenu/" tarPOST="_blank">facebook</a>
+          </div>
+          <div  style="margin-top: 5px!important;">
+              <a href="https://mobile.twitter.com/bjpcheenu?lang=en" tarPOST="_blank">Twitter</a>
+          </div>           
+          <div  style="margin-top: 5px!important;">
+              <a href="#" >Gmail</a>
+          </div>
+        </div>
+
+        <div class=" col-md-3 col-12 mt-sm-5 ">
+         <h3>VISION & MISSION</h3>
+         <p><ins>VISION:</ins></p>
+         <p>To help build a more influential, equal and socially conscious society</p>
+         <p><ins>MISSION:</ins></p>
+         <p><b>EK MUSKURAHAT</b> drives social change by fostering an environment where young adults & children learn, lead and thrive.</p>
+        </div>
+
+        <div class=" col-md-3 col-12 text-left  mt-sm-5">
+             <h3>CONTACT US</h3>
+             <p>BjJP OFFICE - Damoh naka,<br> jabalpur MP</p>
+             <p>456-456-456</p>
+        </div>
+
+
+        <div class="col-md-3 col-12  mt-sm-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14672.512817333585!2d79.8649694!3d23.1655205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x828f3a4a0d3adb03!2sbjp%20office%20jabalpur!5e0!3m2!1sen!2sin!4v1635322542333!5m2!1sen!2sin" 
+             width="250" height="300" style="border-radius:10%;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        </div>
+    </div>
+</div>
+<!-- --------------------footer end----------------- -->
+
+                              <!--counter start-->
+<script type="text/javascript">
+         $(".num").counterUp({delay:100,time:800});
+</script>
+  
+                              <!--counter end-->
+
+<script>
+    $('.portfolio-menu ul li').click(function(){
+        $('.portfolio-menu ul li').removeClass('active');
+        $(this).addClass('active');
+        
+        var selector = $(this).attr('data-filter');
+        $('.portfolio-item').isotope({
+            filter:selector
+        });
+        return  false;
+    });
+    $(document).ready(function() {
+    var popup_btn = $('.popup-btn');
+    popup_btn.magnificPopup({
+    type : 'image',
+    gallery : {
+        enabled : true
+    }
+    });
+    });
+ </script>
+  <script>
+    $(document).ready(function(){
+      var wWidth = $(window).width();
+      if(wWidth > 768){
+      $("ul.bts-nav li").hover(function(){
+         $(this).children("ul").slideToggle(400);
+      });
+    }
+    else{
+      $("ul.bts-nav li a").click(function(){
+         $(this).next("ul").slideToggle(400);
+      });
+    }
+    });
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+ 
+
+
+
